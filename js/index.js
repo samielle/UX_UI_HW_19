@@ -19,5 +19,8 @@ $('button').on({
     },
     mouseleave: function () {
         $(this).css('color', 'black');
+    },
+    click: function () {
+        $(this).css('color', 'white');
     }
 });
