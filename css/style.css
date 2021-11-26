@@ -68,16 +68,18 @@
 
 .MyWork {
     margin: auto;
-    width: 50%;
-    height: 50%;
+    width: 50vw;
+    height: 100%;
+    padding-bottom: 5rem;
 
 }
 
 .MySkills {
     margin: auto;
     min-height: fit-content;
-    width: 50%;
-    height: 50%;
+    width: 50vw;
+    height: 100%;
+    padding-bottom: 1rem;
     
 }
 
@@ -98,6 +100,7 @@
     width: 31%;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .skillsText {
@@ -165,6 +168,7 @@ header {
 }
 .list {
     display: inline;
+    color: #000;
 }
 
 section {
@@ -184,9 +188,23 @@ section {
 }
 
 .content {
-    width: 50%;
-    height: 50%;
+    width: 50vw;
+    height: 100%;
+    padding-bottom: 1rem;
     margin: 0 auto;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: #F1C6CD;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 
 footer {
